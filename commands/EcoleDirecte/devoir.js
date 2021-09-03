@@ -5,7 +5,7 @@ module.exports.run = async (client, message, args) => {
   let user = member.user;
 
   const compte = await client.connect(message.member).catch(err => {
-    console.error("Mauvais identifiants ou pas connecté, faites e!auth");
+    console.error("Mauvais identifiants ou pas connectez, faites e!auth");
   });
   if (!compte) {
     message.channel.send("**Mauvais identifiants ou non connectez. Faites e!auth**")
