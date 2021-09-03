@@ -54,4 +54,4 @@ client.on('ready', () => {
 
     setInterval(() => client.user.setPresence({ activity: { name: `${activities[Math.floor(Math.random() * activities.length)]}`, type: 'PLAYING' }, status: 'online' }), 3000);
 });
-client.login(TOKEN);
+client.login(process.env.TOKEN);
