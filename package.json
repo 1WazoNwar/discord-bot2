@@ -1,0 +1,32 @@
+{
+  "name": "ecole-direct-bot",
+  "version": "1.0.0",
+  "description": "Ecole Directe bot",
+  "main": "main.js",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "cyclic": "^0.2.1",
+    "discord-buttons": "^3.1.1",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "fs": "^0.0.1-security",
+    "mongoose": "^5.12.7",
+    "node-ecole-directe": "^1.3.4",
+    "nodemon": "^2.0.7",
+    "ws": "^7.4.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrostBreker/Ecole-Direct-Bot.git"
+  },
+  "author": "FrostBreker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrostBreker/Ecole-Direct-Bot/issues"
+  },
+  "homepage": "https://github.com/FrostBreker/Ecole-Direct-Bot#readme"
+}
